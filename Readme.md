@@ -1,5 +1,5 @@
 > ## In this basic app I tried to show the following:
-> > * How easy it is web scrape with nodejs and its modules.
+> > * How easy it is to web scrape with nodejs and its modules.
 
 > > * How to traverse html files with Cheerio (a js module).
 
