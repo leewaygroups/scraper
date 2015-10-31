@@ -10,27 +10,27 @@
 > ## Conscience rules:
 Before a quick rundown on how you can run this basic app and probably extend it, note the following:
 
-> > * Understanding that mindless web scraping could cause a DoS attack on the target site.
+> > * Understand that mindless web scraping could cause a DoS attack on the target site.
 
 > > * Also be careful how you use scrapped contents that you don't breach copyrights laws.
 > > * And lastly, scrape with the fear of God. 
 
-> > ### "Do not do to others sites/content what you wouldn't want others to do to yours".
+> > ### "Do not do to others sites/contents what you wouldn't want others to do to yours".
 
 > ## Pre-requisutes:
-> > * You should have nodeJS installed and mongodb installed. Don't know how to do this? See links below:
+> > * You should have nodeJS and mongodb installed. Don't know how to do this? Visit links:
 <https://nodejs.org/en/download/>, <https://docs.mongodb.org/manual/tutorial/install-mongodb-on-windows/> .
 For other OS, you'll also find the needed info at those links.
 
-Note that I used mongoose to work with mongodb here. You can decide to use mongdb client directly which I find much better in terms of querying mongodb. However, you should be aware of JSON BSON (In this case, just for good education).
+Note that I used mongoose to work with mongodb here. You can decide to use mongdb client directly which I find much better in terms of querying mongodb. However, you should be aware of JSON and BSON (In our case, just for good education).
 
 
 > ## How does it work?
-> > * Download the and unzip to a directory.
+> > * Download and unzip to a directory.
 
-> >* cd to the root directory and run: npm install (again not all dependencies were actually used so feel free to do away with those you may not need).
+> >* cd to the root directory and run: `npm install` (again not all dependencies were actually used so feel free to do away with those you may not need).
 
-> > * Still in our app directory (at cmd/terminal), run: nodemon app.js.
+> > * Still in our app directory (at cmd/terminal), run: `nodemon app.js`.
 For info on nodemon see: <http://nodemon.io/> and <https://github.com/remy/nodemon#nodemon> .
 
 > > * To scrape open your browser window go to: <localhost:4005/scrape/> . You should see in realtime what is being scraped at your terminal were you have nodemon running.
