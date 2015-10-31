@@ -3,10 +3,6 @@ var request = require('request');
 var fs = require('fs');
 var localdb = require('../db');
 
-
-
-
-
 //dailys sentinel. check before further scrape
 var node = this;
 node.theVangStatus = true;

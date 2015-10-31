@@ -20,7 +20,7 @@ http.createServer(app)
 .on("request", function(){
 	console.log("new request made to server!");
 })
-.listen(4005);
+.listen(port);
 
 console.log("App is listening on port " + port);
 
